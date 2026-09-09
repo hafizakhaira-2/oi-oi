@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, Mom</title>
+  <meta name="description" content="Surat kecil penuh cinta untuk Ibu." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <main>
+    <!-- OPENING -->
+    <section class="letter-screen active" id="letter" aria-label="Pembuka surat">
+      <div class="letter-glow"></div>
+      <div class="letter-content">
+        <p class="eyebrow">A little letter for you</p>
+        <h1>Untuk Ibu <span>♡</span></h1>
+        <p class="letter-copy">Halo Ibu,<br>ada sesuatu buat Ibu...<br><strong>buka amplopnya yaa ♡</strong></p>
+
+        <div class="envelope-wrap" id="envelopeWrap">
+          <div class="envelope-shadow"></div>
+          <div class="envelope" id="envelope" role="img" aria-label="Amplop putih dengan pita merah">
+            <div class="envelope-back"></div>
+            <div class="letter-paper"><span>Happy Birthday, Mom</span></div>
+            <div class="envelope-front"></div>
+            <div class="envelope-flap"></div>
+            <div class="ribbon ribbon-v"></div>
+            <div class="ribbon ribbon-h"></div>
+            <div class="seal">♡</div>
+          </div>
+        </div>
+
+        <button class="primary-btn" id="openLetter" type="button">💌&nbsp; Buka surat</button>
+        <p class="tiny-note">dibuat dengan banyak cinta</p>
+      </div>
+    </section>
+
+    <!-- BIRTHDAY -->
+    <section class="slide birthday" id="birthday">
+      <div class="section-number">01 / BIRTHDAY</div>
+      <div class="birthday-grid">
+        <figure class="hero-photo hero-left"><img src="images/memory-1.jpg" alt="Kenangan keluarga di alam terbuka"></figure>
+        <div class="birthday-title">
+          <p class="eyebrow">A special day for someone special</p>
+          <h2>HAPPY<br><em>BIRTHDAY, MOM</em></h2>
+          <p class="wish">WISH YOU ALL THE BEST</p>
+          <button class="outline-btn next-btn" data-target="message">Begin the memories <span>→</span></button>
+        </div>
+        <figure class="hero-photo hero-right"><img src="images/memory-2.jpg" alt="Kenangan Ibu bersama keluarga"></figure>
+      </div>
+      <div class="scroll-hint">scroll to continue <span>↓</span></div>
+    </section>
+
+    <!-- MESSAGE -->
+    <section class="slide message" id="message">
+      <div class="section-number">02 / A LETTER</div>
+      <div class="message-inner">
+        <div class="message-decoration">♡</div>
+        <p class="eyebrow">A few words from our hearts</p>
+        <h2>Untuk Ibu<br><em>tersayang,</em></h2>
+        <div class="message-text">
+          <p>Selamat ulang tahun, Ibu! <span>❤️</span></p>
+          <p>Terima kasih untuk semua kasih sayang, doa, perhatian, dan hal-hal kecil yang selalu Ibu lakukan untuk keluarga.</p>
+          <p>Semoga Ibu selalu sehat, panjang umur, bahagia, dan semua doa baik Ibu satu per satu dikabulkan. <span>🤍</span></p>
+        </div>
+        <div class="signature">With all our love,<br><strong>your family</strong></div>
+        <button class="outline-btn next-btn" data-target="memories">See our memories <span>→</span></button>
+      </div>
+    </section>
+
+    <!-- MEMORIES -->
+    <section class="slide memories" id="memories">
+      <div class="section-number">03 / MEMORIES</div>
+      <div class="memories-head">
+        <div>
+          <p class="eyebrow">Little moments, big memories</p>
+          <h2>Our favorite<br><em>little memories.</em></h2>
+        </div>
+        <p class="memories-note">Geser ke bawah untuk melihat semuanya.</p>
+      </div>
+      <div class="polaroid-wall">
+        <figure class="polaroid p1"><img src="images/memory-1.jpg" alt="Kenangan keluarga"/><figcaption><span>01</span>little adventures</figcaption></figure>
+        <figure class="polaroid p2"><img src="images/memory-2.jpg" alt="Ibu bersama keluarga"/><figcaption><span>02</span>always together</figcaption></figure>
+        <figure class="polaroid p3"><img src="images/memory-3.jpg" alt="Kenangan bersama"/><figcaption><span>03</span>good days</figcaption></figure>
+        <figure class="polaroid p4"><img src="images/memory-4.jpg" alt="Momen bahagia"/><figcaption><span>04</span>just us</figcaption></figure>
+        <figure class="polaroid p5"><img src="images/memory-5.jpg" alt="Momen bersama dari belakang"/><figcaption><span>05</span>beautiful memories</figcaption></figure>
+        <figure class="polaroid p6"><img src="images/memory-6.jpg" alt="Foto keluarga"/><figcaption><span>06</span>home is here</figcaption></figure>
+        <figure class="polaroid p7"><img src="images/memory-7.jpg" alt="Kenangan di perbukitan"/><figcaption><span>07</span>another lovely day</figcaption></figure>
+      </div>
+      <button class="outline-btn next-btn centered-btn" data-target="prayer">One more thing <span>→</span></button>
+    </section>
+
+    <!-- PRAYER -->
+    <section class="slide prayer" id="prayer">
+      <div class="section-number">04 / FOR MOM</div>
+      <div class="prayer-grid">
+        <figure class="prayer-photo"><img src="images/memory-7.jpg" alt="Ibu menikmati pemandangan"></figure>
+        <div class="prayer-copy">
+          <p class="eyebrow">A little prayer for you</p>
+          <h2>May your days be<br><em>full of happiness.</em></h2>
+          <div class="line"></div>
+          <p>Semoga hari-hari Ibu selalu dipenuhi kebahagiaan, kesehatan, keberkahan, dan orang-orang yang menyayangi Ibu.</p>
+          <p class="soft">Semoga langkah Ibu selalu dimudahkan, hati Ibu selalu tenang, dan setiap kebaikan yang Ibu berikan kembali kepada Ibu berkali-kali lipat.</p>
+          <button class="outline-btn next-btn" data-target="closing">Continue <span>→</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLOSING -->
+    <section class="slide closing" id="closing">
+      <div class="closing-photo"><img src="images/memory-6.jpg" alt="Kenangan indah bersama keluarga"></div>
+      <div class="closing-overlay"></div>
+      <div class="closing-copy">
+        <p class="eyebrow">Until the next beautiful chapter</p>
+        <h2>Happy Birthday,<br><em>Mom.</em></h2>
+        <p>Thank you for being our home. <span>❤️</span></p>
+        <div class="closing-heart">♡</div>
+        <small>Made with love ♡</small>
+      </div>
+    </section>
+  </main>
+
+  <nav class="dots" aria-label="Navigasi halaman">
+    <button class="dot active" data-target="letter" aria-label="Pembuka"></button>
+    <button class="dot" data-target="birthday" aria-label="Birthday"></button>
+    <button class="dot" data-target="message" aria-label="Ucapan"></button>
+    <button class="dot" data-target="memories" aria-label="Memories"></button>
+    <button class="dot" data-target="prayer" aria-label="Doa"></button>
+    <button class="dot" data-target="closing" aria-label="Penutup"></button>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
